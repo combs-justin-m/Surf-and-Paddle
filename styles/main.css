@@ -1,0 +1,78 @@
+/**************
+General
+**************/
+
+body {
+    font-family: 'Oswald', sans-serif;
+
+}
+
+ul {
+    margin-top: 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    color: inherit;
+}
+/**************
+Header
+**************/
+
+header {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../images/header.jpg);
+    height: 523px;
+    width: 1300px;
+    margin: auto;
+    color: #0a3450;
+}
+
+.navContainer {
+    margin: 0 140px;
+}
+
+#logo {
+    background-image: url(../images/logo.png);
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    margin: 10px 15px 0 0;
+}
+
+#logoTitle {
+    position: relative;
+    display: inline-block;
+    font-size: 15.7px;
+    margin: 0;
+    left: -6px;
+    top: -17px;
+
+}
+
+nav {
+    float: right;
+    display: inline-block;
+}
+
+nav ul {
+    overflow: hidden;
+    margin-top: 17px;
+}
+
+nav ul li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    float: left;
+}
+
+#search-icon {
+    background-image: url(../images/search-icon.png);
+    position: relative;
+    display: inline-block;
+    height: 18px;
+    width: 16px;
+    float: right;
+}
