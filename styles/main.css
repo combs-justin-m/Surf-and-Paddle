@@ -3,7 +3,7 @@ General
 **************/
 
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -16,12 +16,13 @@ ul {
 a {
     color: inherit;
 }
+
 /**************
 Header
 **************/
 
 header {
-    font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Open Sans', sans-serif;*/
     background-image: url(../images/header.jpg);
     height: 523px;
     width: 1300px;
@@ -65,14 +66,35 @@ nav ul li {
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
     display: inline-block;
+    margin-left: 14px;
     float: left;
 }
 
 #search-icon {
     background-image: url(../images/search-icon.png);
-    position: relative;
     display: inline-block;
     height: 18px;
     width: 16px;
+    margin: 4px 28px 0 6px;
     float: right;
+}
+
+.titleContainer {
+    position: relative;
+    top: 25.5%;
+    text-align: center;
+}
+
+header h1 {
+    position: relative;
+    font-size: 98px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+}
+
+header h4 {
+    margin: 0;
+    font-size: 13px;
+    margin-top: -13px;
 }
