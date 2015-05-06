@@ -22,7 +22,6 @@ Header
 **************/
 
 header {
-    /*font-family: 'Open Sans', sans-serif;*/
     background-image: url(../images/header.jpg);
     height: 523px;
     width: 1300px;
@@ -95,6 +94,9 @@ header h1 {
 
 header h4 {
     margin: 0;
-    font-size: 13px;
-    margin-top: -13px;
+    font-size: 15px;
+    margin-top: -18px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    letter-spacing: .5px;
 }
