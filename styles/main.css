@@ -1,6 +1,6 @@
-/**************
+/****************************
 General
-**************/
+****************************/
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -17,9 +17,9 @@ a {
     color: inherit;
 }
 
-/**************
+/****************************
 Header
-**************/
+****************************/
 
 header {
     background-image: url(../images/header.jpg);
@@ -98,4 +98,40 @@ header h4 {
     margin-top: -16px;
     font-weight: 400;
     letter-spacing: -1px;
+}
+
+/****************************
+Main Content
+****************************/
+
+.mainContent {
+    margin: 62px 230px;
+}
+
+.columnLeft {
+    width: 67%;
+    float: left;
+}
+
+.subtitle {
+    background-color: firebrick;
+    height: 30px;
+    width: 100%;
+    margin-top: -13px;
+}
+
+
+
+.columnLeft h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 62.5px;
+    font-weight: 400;
+    color: #0A3451;
+    line-height: 70px;
+    margin: 0;
+}
+
+.columnRight {
+    width: 33%;
+    float: left;
 }
