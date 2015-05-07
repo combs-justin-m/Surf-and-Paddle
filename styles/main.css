@@ -248,3 +248,28 @@ Column Right
     width: 33%;
     float: left;
 }
+
+/****************************
+Posts
+****************************/
+
+/****************************
+
+box {
+    position: relative;
+}
+
+box:after {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: color;
+    position: absolute;
+}
+
+box:hover:after {
+    display: none;
+}
+
+****************************/
