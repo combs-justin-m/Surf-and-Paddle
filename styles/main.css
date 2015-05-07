@@ -17,6 +17,10 @@ a {
     color: #A8B7C2;
 }
 
+a li:hover {
+    text-decoration: underline;
+}
+
 /****************************
 Header
 ****************************/
