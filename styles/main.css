@@ -110,7 +110,8 @@ Main Content
 }
 
 .columnLeft {
-    width: 67%;
+    width: 68%;
+    margin-right: 2%;
     float: left;
 }
 
@@ -234,7 +235,7 @@ Column Right
 ****************************/
 
 .columnRight {
-    width: 33%;
+    width: 30%;
     float: left;
 }
 
@@ -243,6 +244,38 @@ Column Right
     width: 84px;
     height: 84px;
     border-radius: 50%;
+    margin: 20px auto;
+}
+
+.author {
+    text-align: center;
+}
+
+.author h4 {
+    margin-top: -10px;
+    margin-bottom: 0;
+    color: #3982BB;
+}
+
+.author ul li {
+    display: inline-block;
+    margin: 0 4px;
+    font-size: 14px;
+}
+
+.ad {
+    background-image: url(../images/ad.jpg);
+    position: relative;
+    width: 278px;
+    height: 300px;
+    margin: 50px auto 0;
+}
+
+.ad a {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    font-size: 14px;
 }
 
 /****************************
