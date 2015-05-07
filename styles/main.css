@@ -14,7 +14,7 @@ ul {
 }
 
 a {
-    color: inherit;
+    color: #A8B7C2;
 }
 
 /****************************
@@ -114,8 +114,10 @@ Main Content
 }
 
 .subtitle {
+    overflow: hidden;
     font-size: 13px;
     padding-top: 10px;
+    margin-bottom: 40px;
 }
 
 .subtitle > * {
@@ -124,7 +126,7 @@ Main Content
     color: #A8B7C2
 }
 
-.subtitle p {
+.columnLeft .subtitle p {
     margin-top: 0;
     margin-bottom: 0;
     color: #3982BB;
@@ -146,6 +148,25 @@ Main Content
     line-height: 70px;
     margin: 0;
 }
+
+.columnLeft p {
+    margin-bottom: 40px;
+    color: #545E64;
+}
+
+blockquote {
+    font-size: 27px;
+    color: #3982BB;
+    padding: 16px;
+    margin-top: -14px;
+    margin-left: 9px;
+    margin-bottom: 12px;
+    border-left: 1px solid #A8B7C2;
+}
+
+/****************************
+Column Right
+****************************/
 
 .columnRight {
     width: 33%;
