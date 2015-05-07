@@ -110,8 +110,8 @@ Main Content
 }
 
 .columnLeft {
-    width: 68%;
-    margin-right: 2%;
+    width: 66%;
+    margin-right: 4%;
     float: left;
 }
 
@@ -268,13 +268,25 @@ Column Right
     position: relative;
     width: 278px;
     height: 300px;
-    margin: 50px auto 0;
+    margin: 50px auto 70px;
 }
 
 .ad a {
     position: absolute;
     top: 100%;
     right: 0;
+    font-size: 14px;
+}
+
+.sidebar h3 {
+    font-family: 'Oswald', sans-serif;
+    color: #3982BB;
+    margin: 5px 0;
+}
+
+.sidebar p {
+    color: #A8B7C2;
+    margin: 0;
     font-size: 14px;
 }
 
