@@ -1,4 +1,4 @@
-/****************************
+/***************************
 General
 ****************************/
 
@@ -156,9 +156,26 @@ Main Content
 }
 
 #rollover {
+    position: relative;
     color: #3982BB;
     text-decoration: underline;
     font-weight: 700;
+}
+
+#rollover:after {
+    content: "";
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    background-image: url(http://lorempixel.com/200/300);
+    transition: opacity .3s ease-in;
+}
+
+#rollover:hover:after {
+    visibility: visible;
+    opacity: 1;
 }
 
 blockquote {
@@ -173,6 +190,7 @@ blockquote {
 
 .buttonRow {
     margin-top: -12px;
+    margin-bottom: 70px;
     float: left;
 
 }
@@ -188,20 +206,12 @@ blockquote {
     line-height: 30px;
     font-size: 12px;
     height: 30px;
-    width: 128px;
+    padding: 0 8px;
     background-color: #A4B3BE;
     color: #fff;
 }
 
-.buttonWrapper:hover > #comment {
-    background-color: #083452;
-}
-
-.buttonWrapper:hover > #later {
-    background-color: #083452;
-}
-
-.buttonWrapper:hover > #share {
+.buttonWrapper:hover > .icon {
     background-color: #083452;
 }
 
@@ -209,7 +219,7 @@ blockquote {
     background-color: #196EB1;
 }
 
-#comment {
+.icon {
     text-align: center;
     line-height: 35px;
     background-color: #5E686F;
@@ -219,27 +229,6 @@ blockquote {
     float: left;
 }
 
-#later {
-    text-align: center;
-    line-height: 30px;
-    background-color: #5E686F;
-    height: 30px;
-    width: 35px;
-    display: inline-block;
-    float: left;
-}
-
-#share {
-    text-align: center;
-    line-height: 30px;
-    background-color: #5E686F;
-    height: 30px;
-    width: 35px;
-    display: inline-block;
-    float: left;
-}
-
-
 /****************************
 Column Right
 ****************************/
@@ -247,6 +236,13 @@ Column Right
 .columnRight {
     width: 33%;
     float: left;
+}
+
+.avatar {
+    background-image: url(../images/avatar.png);
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
 }
 
 /****************************
@@ -272,4 +268,4 @@ box:hover:after {
     display: none;
 }
 
-****************************/
+***************************
