@@ -105,7 +105,7 @@ header h4 {
 Main Content
 ****************************/
 
-.mainContent {
+main {
     margin: 62px 230px;
 }
 
@@ -222,7 +222,7 @@ blockquote {
 
 .icon {
     text-align: center;
-    line-height: 35px;
+    line-height: 30px;
     background-color: #5E686F;
     height: 30px;
     width: 35px;
