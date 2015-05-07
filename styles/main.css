@@ -1,0 +1,175 @@
+/****************************
+General
+****************************/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+ul {
+    margin-top: 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    color: #A8B7C2;
+}
+
+/****************************
+Header
+****************************/
+
+header {
+    background-image: url(../images/header.jpg);
+    height: 523px;
+    width: 1300px;
+    margin: auto;
+    color: #0a3450;
+}
+
+.navContainer {
+    margin: 0 140px;
+}
+
+#logo {
+    background-image: url(../images/logo.png);
+    height: 45px;
+    width: 45px;
+    display: inline-block;
+    margin: 10px 15px 0 0;
+}
+
+#logoTitle {
+    position: relative;
+    display: inline-block;
+    font-size: 15.7px;
+    margin: 0;
+    left: -6px;
+    top: -17px;
+
+}
+
+nav {
+    float: right;
+    display: inline-block;
+}
+
+nav ul {
+    overflow: hidden;
+    margin-top: 17px;
+}
+
+nav ul li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 14px;
+    float: left;
+    color: #0a3450;
+}
+
+#search-icon {
+    background-image: url(../images/search-icon.png);
+    display: inline-block;
+    height: 18px;
+    width: 16px;
+    margin: 4px 28px 0 6px;
+    float: right;
+}
+
+.titleContainer {
+    position: relative;
+    top: 25.5%;
+    text-align: center;
+}
+
+header h1 {
+    position: relative;
+    font-size: 98px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0;
+}
+
+header h4 {
+    margin: 0;
+    font-size: 15px;
+    margin-top: -16px;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+
+/****************************
+Main Content
+****************************/
+
+.mainContent {
+    margin: 62px 230px;
+}
+
+.columnLeft {
+    width: 67%;
+    float: left;
+}
+
+.subtitle {
+    overflow: hidden;
+    font-size: 13px;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+
+.subtitle > * {
+    float: left;
+    margin-left: 10px;
+    color: #A8B7C2
+}
+
+.columnLeft .subtitle p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #3982BB;
+}
+
+.thumbnail {
+    background-image: url(../images/avatar.png);
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+    margin: -5px 0px 0px 5px;
+}
+
+.columnLeft h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 62.5px;
+    font-weight: 400;
+    color: #0A3451;
+    line-height: 70px;
+    margin: 0;
+}
+
+.columnLeft p {
+    margin-bottom: 40px;
+    color: #545E64;
+}
+
+blockquote {
+    font-size: 27px;
+    color: #3982BB;
+    padding: 16px;
+    margin-top: -14px;
+    margin-left: 9px;
+    margin-bottom: 12px;
+    border-left: 1px solid #A8B7C2;
+}
+
+/****************************
+Column Right
+****************************/
+
+.columnRight {
+    width: 33%;
+    float: left;
+}
