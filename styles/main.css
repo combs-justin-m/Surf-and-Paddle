@@ -4,7 +4,6 @@ General
 
 body {
     font-family: 'Open Sans', sans-serif;
-
 }
 
 h2 {
@@ -62,7 +61,6 @@ header {
     margin: 0;
     left: -6px;
     top: -17px;
-
 }
 
 nav {
@@ -126,9 +124,11 @@ main {
     float: left;
 }
 
-.thumbnail {
-    background-image: url(../images/avatar.png);
-    background-size: cover;
+.columnLeft h2 {
+    margin: 0;
+}
+
+.subtitle img {
     height: 25px;
     width: 25px;
     margin: -5px 0px 0px 5px;
@@ -153,9 +153,6 @@ main {
     color: #3982BB;
 }
 
-.columnLeft h2 {
-    margin: 0;
-}
 
 .columnLeft p {
     margin-bottom: 40px;
