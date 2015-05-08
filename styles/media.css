@@ -10,7 +10,7 @@ header {
     position: absolute;
     left: 50%;
     margin-left: -22.5px;
-    top: 55px;
+    top: 70px;
 }
 
 .navContainer {
@@ -36,6 +36,14 @@ nav ul {
     margin-top: 0;
 }
 
+/****************************
+Main Content
+****************************/
+
+.columnLeft {
+    width: 100%;
+}
+
 .columnRight {
     float: none;
     clear: both;
@@ -57,10 +65,48 @@ main {
     margin: 12vw 6%;
 }
 
-.columnLeft {
-    width: 100%;
+#rollover:after {
+    display: none;
+}
+
+.icon {
+    line-height: 40px;
+    height: 40px;
+    width: 45px;
 }
 
 .button {
     display: none;
+}
+
+.columnRight {
+    width: 100%;
+}
+
+.author {
+    font-size: 5vw;
+}
+
+.author ul li {
+    font-size: 4vw;
+}
+
+.sidebar {
+    display: none;
+}
+
+.posts h2 {
+    font-size: 9vw;
+}
+
+.blog {
+    width: 100%;
+}
+
+figcaption {
+    color: #fff;
+}
+
+footer {
+    height: 280px;
 }
