@@ -1,3 +1,66 @@
 header {
+    height: 50vh;
+}
+
+#logoTitle {
+    display: none;
+}
+
+#logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -22.5px;
+    top: 55px;
+}
+
+.navContainer {
+    position: relative;
+    width: 185px;
+    margin-left: -92.5px;
+    left: 50%;
+    padding-top: 15px;
+}
+
+nav ul {
+    margin-top: 0;
+}
+
+.titleContainer h1 {
+    margin-top: 60px;
+    font-size: 9vw;
+    line-height: .85;
+}
+
+.titleContainer h4 {
+    font-size: 4vw;
+    margin-top: 0;
+}
+
+.columnRight {
+    float: none;
+    clear: both;
+}
+
+.subtitle img {
+    display: none;
+}
+
+.subtitle p {
+    display: none;
+}
+
+.subtitle span:nth-child(3) {
+    display: none;
+}
+
+main {
+    margin: 12vw 6%;
+}
+
+.columnLeft {
+    width: 100%;
+}
+
+.button {
     display: none;
 }

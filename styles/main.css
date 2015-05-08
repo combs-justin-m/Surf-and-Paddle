@@ -12,6 +12,7 @@ h2 {
     font-weight: 400;
     color: #0A3451;
     line-height: 70px;
+    letter-spacing:
 }
 
 ul {
@@ -43,7 +44,6 @@ header {
 
 .navContainer {
     margin: 0 210px;
-    max-width: 1300px;
 }
 
 #logo {
