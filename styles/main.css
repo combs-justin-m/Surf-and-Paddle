@@ -400,7 +400,6 @@ footer {
 
 .footerContainer {
     margin: 0 16%;
-    line-height: 90px;
     color: #A6B5C0;
     font-size: 13px;
 }
@@ -408,4 +407,21 @@ footer {
 footer img {
     margin-bottom: -8.75px;
     margin-right: 15px;
+    padding-top: 25px;
+}
+
+footer ul {
+    padding-top: 38px;
+    float: right;
+    margin: 0;
+}
+
+footer ul li {
+    float: left;
+    padding: 0 7px;
+    border-right: 1px solid #A6B5C0;
+}
+
+#noBorder {
+    border: none;
 }
