@@ -213,7 +213,7 @@ blockquote {
     display: inline-block;
     text-align: center;
     line-height: 30px;
-    font-size: 12px;
+    font-size: 14.5px;
     height: 30px;
     padding: 0 8px;
     background-color: #A4B3BE;
@@ -309,14 +309,19 @@ hr {
     text-align: center;
 }
 
+figure {
+    position: relative;
+    text-align: left;
+}
+
 .posts h2 {
    margin: 30px 0;
+   color: #0A3451;
 }
 
 article {
-    margin: 0;
+    margin: 45px 0 0 0;
     width: 100%;
-    background: blue;
 }
 
 article > * {
@@ -325,21 +330,60 @@ article > * {
 
 .blog {
     display: inline-block;
-    width: 24%;
+    position: relative;
+    float: left;
+    width: 25%;
     height: 330px;
     margin: 0;
+    background-size: cover;
+}
+
+figure:after {
+    content: "";
+    position: absolute;
+    opacity: .7;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #196EB1;
+    transition: opacity .3s ease-in-out;
+}
+
+figure:hover:after {
+    opacity: 0;
+}
+
+figure:hover > figcaption {
+    color: #fff;
 }
 
 .post1 {
-    background: pink;
+    background-image: url(../images/article-image-1.jpg);
 }
 
 .post2 {
-    background: red;
+    background-image: url(../images/article-image-2.jpg);
 }
 
 .post3 {
-    background: springgreen;
+    background-image: url(../images/article-image-3.jpg);
+}
+
+.post4 {
+    background-image: url(../images/article-image-4.jpg);
+}
+
+figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #0A3451;
+    z-index: 1;
 }
 /****************************
 
@@ -361,3 +405,14 @@ box:hover:after {
 }
 
 ***************************
+
+/****************************
+Footer
+****************************/
+
+footer {
+    clear: both;
+    height: 90px;
+    width: 100%;
+    background: #0A3451;
+}
