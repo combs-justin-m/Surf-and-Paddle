@@ -343,9 +343,10 @@ figure:after {
     position: absolute;
     opacity: .7;
     top: 0;
-    right: 0;
+    right: -1px;
     bottom: 0;
-    left: 0;
+    left: -1px;
+    float: left;
     background: #196EB1;
     transition: opacity .3s ease-in-out;
 }
@@ -401,7 +402,7 @@ footer {
 .footerContainer {
     margin: 0 16%;
     color: #A6B5C0;
-    font-size: 13px;
+    font-size: 1vw;
 }
 
 footer img {
