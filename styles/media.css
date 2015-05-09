@@ -108,5 +108,29 @@ figcaption {
 }
 
 footer {
-    height: 280px;
+    height: 200px;
+}
+
+.footerContainer {
+    font-size: 3vw;
+    margin: 0 6%;
+    text-align: center;
+    position: relative;
+}
+
+footer p {
+    position: absolute;
+    top: 130px;
+}
+
+footer img {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -23px;
+}
+
+footer ul {
+    float: none;
+    padding-top: 25px
 }

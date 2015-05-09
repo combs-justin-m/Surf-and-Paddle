@@ -408,9 +408,14 @@ footer img {
     padding-top: 25px;
 }
 
+footer p {
+    display: inline-block;
+}
+
 footer ul {
     padding-top: 38px;
     float: right;
+    display: inline-block;
     margin: 0;
 }
 
