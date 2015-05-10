@@ -1,5 +1,5 @@
 header {
-    height: 50vh;
+    height: 270px;
 }
 
 #logoTitle {
@@ -10,12 +10,12 @@ header {
     position: absolute;
     left: 50%;
     margin-left: -22.5px;
-    top: 70px;
+    top: 60px;
 }
 
 .navContainer {
     position: relative;
-    width: 185px;
+    width: 190px;
     margin-left: -92.5px;
     left: 50%;
     padding-top: 15px;
