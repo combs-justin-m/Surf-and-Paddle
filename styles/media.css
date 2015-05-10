@@ -121,6 +121,7 @@ footer {
 footer p {
     position: absolute;
     top: 130px;
+    font-size: 3.2vw
 }
 
 footer img {
