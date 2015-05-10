@@ -1,4 +1,13 @@
 /***************************
+Colors
+
+Dark Blue: #0A3451;
+Dark Gray: #5E686F;
+Light Gray: #A4B3BE;
+Blue: #196EB1;
+White: #fff;
+
+***************************
 General
 ****************************/
 
@@ -321,10 +330,6 @@ article {
     width: 100%;
 }
 
-article > * {
-    box-sizing: border-box;
-}
-
 .blog {
     display: inline-block;
     position: relative;
@@ -357,21 +362,10 @@ figure:hover > figcaption {
     text-shadow: 2px 2px 4px #000000;
 }
 
-.post1 {
-    background-image: url(../images/article-image-1.jpg);
-}
-
-.post2 {
-    background-image: url(../images/article-image-2.jpg);
-}
-
-.post3 {
-    background-image: url(../images/article-image-3.jpg);
-}
-
-.post4 {
-    background-image: url(../images/article-image-4.jpg);
-}
+.post1 {background-image: url(../images/article-image-1.jpg);}
+.post2 {background-image: url(../images/article-image-2.jpg);}
+.post3 {background-image: url(../images/article-image-3.jpg);}
+.post4 {background-image: url(../images/article-image-4.jpg);}
 
 figcaption {
     position: absolute;
