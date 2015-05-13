@@ -22,7 +22,7 @@ h2 {
     @include googleFont('Oswald');
     font-size: 62.5px;
     font-weight: 400;
-    color: #0A3451;
+    color: $darkBlue;
     line-height: 70px;
 }
 
@@ -33,7 +33,7 @@ ul {
 }
 
 a {
-    color: #A8B7C2;
+    color: $darkBlue;
 
     li:hover {
         text-decoration: underline;
