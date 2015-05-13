@@ -8,16 +8,18 @@ $lightGray: #A4B3BE;
 $blue: #196EB1;
 $white: #fff;
 
+@mixin googleFont($type) {font-family: ($type), sans-serif;}
+
 /***************************
 General
 ****************************/
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    @include googleFont('Open Sans');
 }
 
 h2 {
-    font-family: 'Oswald', sans-serif;
+    @include googleFont('Oswald');
     font-size: 62.5px;
     font-weight: 400;
     color: #0A3451;
@@ -32,10 +34,10 @@ ul {
 
 a {
     color: #A8B7C2;
-}
 
-a li:hover {
-    text-decoration: underline;
+    li:hover {
+        text-decoration: underline;
+    }
 }
 
 /****************************
@@ -74,19 +76,18 @@ header {
 
 nav {
     float: right;
-}
 
-nav ul {
-    margin-top: 17px;
-}
-
-nav ul li {
-    font-family: 'Oswald', sans-serif;
-    font-size: 18px;
-    display: inline-block;
-    margin-left: 14px;
-    float: left;
-    color: $darkBlue;
+    ul {
+        margin-top: 17px;
+        li {
+            @include googleFont('Oswald');
+            font-size: 18px;
+            display: inline-block;
+            margin-left: 14px;
+            float: left;
+            color: $darkBlue;
+        }
+    }
 }
 
 #search-icon {
@@ -102,21 +103,21 @@ nav ul li {
     position: relative;
     top: 25.5%;
     text-align: center;
-}
 
-.titleContainer h1 {
-    font-size: 98px;
-    font-weight: 500;
-    color: #fff;
-    margin: 0;
-}
+    h1 {
+        font-size: 98px;
+        font-weight: 500;
+        color: #fff;
+        margin: 0;
+    }
 
-.titleContainer h4 {
-    margin: 0;
-    font-size: 15px;
-    margin-top: -16px;
-    font-weight: 400;
-    letter-spacing: -1px;
+    h4 {
+        margin: 0;
+        font-size: 15px;
+        margin-top: -16px;
+        font-weight: 400;
+        letter-spacing: -1px;
+    }
 }
 
 /****************************
@@ -131,16 +132,10 @@ main {
     width: 66%;
     margin-right: 4%;
     float: left;
-}
 
-.columnLeft h2 {
-    margin: 0;
-}
-
-.subtitle img {
-    height: 25px;
-    width: 25px;
-    margin: -5px 0px 0px 5px;
+    h2 {
+        margin: 0;
+    }
 }
 
 .subtitle {
@@ -148,7 +143,14 @@ main {
     font-size: 13px;
     padding-top: 10px;
     margin-bottom: 40px;
+
+    img {
+        height: 25px;
+        width: 25px;
+        margin: -5px 0px 0px 5px;
+    }
 }
+
 
 .subtitle > * {
     float: left;
@@ -262,18 +264,18 @@ Column Right
 
 .author {
     text-align: center;
-}
 
-.author h4 {
-    margin-top: -10px;
-    margin-bottom: 0;
-    color: $blue;
-}
+    h4 {
+        margin-top: -10px;
+        margin-bottom: 0;
+        color: $blue;
+    }
 
-.author ul li {
-    display: inline-block;
-    margin: 0 4px;
-    font-size: 14px;
+    ul li {
+        display: inline-block;
+        margin: 0 4px;
+        font-size: 14px;
+    }
 }
 
 .ad {
@@ -282,17 +284,17 @@ Column Right
     width: 278px;
     height: 300px;
     margin: 50px auto 70px;
-}
 
-.ad a {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    font-size: 14px;
+    a {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        font-size: 14px;
+    }
 }
 
 .sidebar h3 {
-    font-family: 'Oswald', sans-serif;
+    @include googleFont('Oswald');
     color: $blue;
     margin: 5px 0;
 }
@@ -372,7 +374,7 @@ figcaption {
     bottom: 0;
     left: 0;
     padding: 10px 20px;
-    font-family: 'Oswald', sans-serif;
+    @include googleFont('Oswald');
     font-size: 30px;
     font-weight: 400;
     color: $darkBlue;
@@ -411,12 +413,12 @@ footer ul {
     float: right;
     display: inline-block;
     margin: 0;
-}
 
-footer ul li {
-    float: left;
-    padding: 0 7px;
-    border-right: 1px solid #A6B5C0;
+    li {
+        float: left;
+        padding: 0 7px;
+        border-right: 1px solid #A6B5C0;
+    }
 }
 
 #noBorder {
