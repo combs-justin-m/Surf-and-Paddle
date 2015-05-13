@@ -20,7 +20,7 @@ ul {
   padding-left: 0; }
 
 a {
-  color: #0A3451; }
+  color: #A4B3BE; }
 
 a li:hover {
   text-decoration: underline; }
@@ -158,7 +158,7 @@ main {
 
 blockquote {
   font-size: 27px;
-  color: #3982BB;
+  color: #196EB1;
   padding: 16px;
   margin-top: -14px;
   margin-left: 9px;
@@ -331,7 +331,7 @@ footer {
 
 .footerContainer {
   margin: 0 16%;
-  color: #A6B5C0;
+  color: #A4B3BE;
   font-size: 1vw; }
 
 footer img {

@@ -7,6 +7,7 @@ $darkGray: #5E686F;
 $lightGray: #A4B3BE;
 $blue: #196EB1;
 $white: #fff;
+$pColor: #545E64;
 
 @mixin googleFont($type) {font-family: ($type), sans-serif;}
 
@@ -33,7 +34,7 @@ ul {
 }
 
 a {
-    color: $darkBlue;
+    color: $lightGray;
 
     li:hover {
         text-decoration: underline;
@@ -167,7 +168,7 @@ main {
 
 .columnLeft p {
     margin-bottom: 40px;
-    color: #545E64;
+    color: $pColor;
 }
 
 #rollover {
@@ -198,7 +199,7 @@ main {
 
 blockquote {
     font-size: 27px;
-    color: #3982BB;
+    color: $blue;
     padding: 16px;
     margin-top: -14px;
     margin-left: 9px;
@@ -394,7 +395,7 @@ footer {
 
 .footerContainer {
     margin: 0 16%;
-    color: #A6B5C0;
+    color: $lightGray;
     font-size: 1vw;
 }
 
